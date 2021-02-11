@@ -1,0 +1,22 @@
+#Ejercicio 1, triangulo.
+
+print("Bienvenido al programa")
+x = int(input("Ingrese un numero entero positivo: "))
+for i in range(x):
+    for j in range(i+1):
+        print("*", end="")
+    print()
+print("Final")
+
+
+
+
+#Ejercicio 2, Numero primo.
+
+print("Bienvenido al programa")
+x=int(input("Ingrese un numero entero positivo: "))
+a= 2
+if x%2 == 0:
+    print("El numero " +str(x)+ " no es primo")
+else:
+    print("El numero " +str(x) + " es primo")
