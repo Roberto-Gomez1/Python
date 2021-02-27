@@ -1,0 +1,80 @@
+.caja{
+  position: relative;
+  width: 310px;
+  height: 65px;
+  padding: 20px;
+  background-color:#18359D;
+  border-radius: 5px;
+  margin: 15px 0 0;
+  box-shadow: 0 15px 10px #0B2161;
+  
+  
+}
+.pokemon{
+  width: 75px;
+  height: 75px;
+  margin: -10px 0 0 -10px;
+  padding: 6px;
+  background-color: #0B2161;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px #000 inset;
+}
+.pokemon img{
+  width: 75px;
+  height: 75px;
+}
+.pokename{
+  font-style: normal;
+  font-weight: bold;
+  position: relative;
+  color: #fff;
+  top: -85px;
+  left: 100px;
+}
+.pokename lvl{
+  padding: 0 0 0 100px;
+}
+.hp{
+  position: relative;
+  color: #fff;
+  top: -83px;
+  left: 100px;
+}
+meter {
+  width: 150px;
+}
+ meter::-webkit-meter-optimum-value {
+   background: red;  
+}
+hp{
+  background: #102368;
+  border-radius: 10px;
+  padding: 3px 9px 3px 9px;
+  font-style: normal;
+  font-weight: bold;
+  position: relative;
+  color: #fff;
+  top: 20px;
+  right: 115px;  
+  box-shadow: 0px 0px 10px 0px #000 inset;
+}
+.type{
+  font-style: normal;
+  font-weight: bold;
+  position: relative;
+  color: #fff;
+  top: -60px;
+  left: 95px;
+}
+.type img{
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+.type .atrapado{
+  top: -15px;
+  left: 200px;
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
